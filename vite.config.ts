@@ -13,5 +13,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: 'http://127.0.0.1:3333/'
+  // base: 'http://127.0.0.1:3333/' // seems not necessary
 });
